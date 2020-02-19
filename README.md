@@ -1,3 +1,13 @@
+## How to Run
+
+1. Clone project.
+
+2. Run `yarn install` in the root of the project.
+
+3. Run `yarn run build && yarn run start` to build then start the project.
+
+4. All done! View the project on http://localhost:3000
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
