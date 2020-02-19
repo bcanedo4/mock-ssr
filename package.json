@@ -22,8 +22,10 @@
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node index.js",
+    "pack": "webpack --config webpack.config.js",
+    "babel": "babel src -d views",
+    "build": "yarn run pack && yarn run babel",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
